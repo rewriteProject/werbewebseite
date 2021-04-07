@@ -1,0 +1,74 @@
+p, h1, h2, h3, h4, h5, h6, div {
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.h1-pc {
+  font-size: 40px;
+}
+.h2-pc {
+  font-size: 35px;
+}
+.h3-pc {
+  font-size: 30px;
+}
+.h4-pc {
+  font-size: 25px;
+}
+
+.h1-mobile {
+  font-size: 30px;
+}
+.h2-mobile {
+  font-size: 25px;
+}
+.h3-mobile {
+  font-size: 20px;
+}
+.h4-mobile {
+  font-size: 15px;
+}
+
+.mobile-pic {
+  max-width: 400px !important;
+  min-width: 10px !important;
+  max-height: 400px !important;
+  min-height: 10px !important;
+}
+
+.navbar-pink {
+  background-color: #f4c2bc;
+}
+
+.title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.background-main {
+  background-color: #fadfd1;
+  padding-top: 30px !important;
+  padding-bottom: 1px !important;
+}
+
+.background-pink {
+  background-color: #fadfd1;
+  padding-top: 30px;
+}
+
+.background-white {
+  background-color: #ffffff;
+  padding-top: 30px;
+}
+
+.team {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  background-color: #f4c2bc !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}

@@ -1,0 +1,283 @@
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custon CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+    <title>Diplomprojekt ReWrite</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light navbar-pink">
+    <a class="navbar-brand" href="#">
+      <img src="pictures/logo_verlauf.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+      ReWrite
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#team">Team</a>
+        <a class="nav-item nav-link" href="#kontakt">Kontakt</a>
+        <a class="nav-item nav-link" href="#fortschritt">Projektfortschritt</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid background-main">
+  <!-- Home -->
+      <div class="container-fluid background-white shadow p-3 mb-5">
+      <h1 class="text-center h1-pc d-none d-lg-block d-xl-block">ReWrite - Software zur Erstellung von Prognosen und Statistiken</h1>
+      <h1 class="text-center h1-mobile d-block d-lg-none d-xl-none">ReWrite - Software zur Erstellung von Prognosen und Statistiken</h1>
+
+      <h2 class="title h2-pc d-none d-lg-block d-xl-block">Ausgangssituation</h2>
+      <h2 class="title h2-mobile d-block d-lg-none d-xl-none">Ausgangssituation</h2>
+      <p class="card-text">
+          Der Auftraggeber arbeitet an einer innovativen Software, die Daten zu Logistik und Kaufverhalten von diversen Produkten sammelt.​
+          <br>
+          Daher wird eine maßgeschneiderte Lösung benötigt, die diese Daten analysiert und auf einer Website in Form von Diagrammen darstellt.​
+          <br>
+          Darüber hinaus sollen anhand der aufbereiteten Daten Wahrscheinlichkeiten und Prognosen berechnet werden können.
+      </p>
+      <div id="team"></div>
+    </div>
+
+    <!-- Team -->
+    <div class="container-fluid background-white shadow p-3 mb-5">
+      <h2 class="title h2-pc d-none d-lg-block d-xl-block">Das Projektteam</h2>
+      <h2 class="title h2-mobile d-block d-lg-none d-xl-none">Das Projektteam</h2>
+
+      <!-- Chris -->
+      <div class="d-none d-lg-block d-xl-block">
+        <div class="row team">
+          <div class="col-2">
+            <img src="pictures/chris.png" class="rounded img-fluid shadow" alt="Chris">
+          </div>
+          <div class="col-9">
+            <h3 class="card-title h3-pc">Christian Broz</h3>
+            <p class="card-text"><b>Datenerfassung und Datensicherung</b><br>
+              Datenversorgung über direkte Verbindung zu einer existierenden Software und deren Sicherung in einer Datenbank.
+            </p>
+            <p class="card-text"><b>Kontakt: </b><br>cbroz@student.tgm.ac.at</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-block d-lg-none d-xl-none">
+        <div class="team row">
+          <img src="pictures/chris.png" class="rounded img-fluid shadow mobile-pic mx-auto d-block" alt="Chris">
+        </div>
+        <div class="team row">
+          <h3 class="card-title h3-mobile">Christian Broz</h3>
+          <p class="card-text"><b>Datenerfassung und Datensicherung</b><br>
+            Datenversorgung über direkte Verbindung zu einer existierenden Software und deren Sicherung in einer Datenbank.
+          </p>
+          <p class="card-text"><b>Kontakt: </b><br>cbroz@student.tgm.ac.at</p>
+        </div>
+      </div>
+
+      <!-- Lisa -->
+      <div class="d-none d-lg-block d-xl-block">
+        <div class="row team">
+          <div class="col-2">
+            <img src="pictures/lisa.png" class="rounded img-fluid shadow" alt="Chris">
+          </div>
+          <div class="col-9">
+            <h3 class="card-title h3-pc">Lisa Wachter</h3>
+            <p class="card-text"><b>Algorithmus-Entwicklung</b><br>
+              Erstellung von Statistiken zu Wahrscheinlichkeiten und Prognosen durch Analyse vorhandener Daten.
+            </p>
+            <p class="card-text"><b>Kontakt: </b><br>lwachter@student.tgm.ac.at</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-block d-lg-none d-xl-none">
+        <div class="team row">
+          <img src="pictures/lisa.png" class="rounded img-fluid shadow mobile-pic mx-auto d-block" alt="Chris">
+        </div>
+        <div class="team row">
+          <h3 class="card-title h3-mobile">Lisa Wachter</h3>
+          <p class="card-text"><b>Algorithmus-Entwicklung</b><br>
+            Erstellung von Statistiken zu Wahrscheinlichkeiten und Prognosen durch Analyse vorhandener Daten.
+          </p>
+          <p class="card-text"><b>Kontakt: </b><br>lwachter@student.tgm.ac.at</p>
+        </div>
+      </div>
+
+      <!-- Flo -->
+      <div class="d-none d-lg-block d-xl-block">
+        <div class="row team">
+          <div class="col-2">
+            <img src="pictures/flo.png" class="rounded img-fluid shadow" alt="Chris">
+          </div>
+          <div class="col-9">
+            <h3 class="card-title h3-pc">Florian Medved</h3>
+            <p class="card-text"><b>Schnittstellen-Programmierung</b><br>
+              Implementierung der Hauptschnittstelle zur direkten Kommunikation zwischen der Datenaufbereitung und der Analyse auf der Website.
+            </p>
+            <p class="card-text"><b>Kontakt: </b><br>fmedved@student.tgm.ac.at</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-block d-lg-none d-xl-none">
+        <div class="team row">
+          <img src="pictures/flo.png" class="rounded img-fluid shadow mobile-pic mx-auto d-block" alt="Chris">
+        </div>
+        <div class="team row">
+          <h3 class="card-title h3-mobile">Florian Medved</h3>
+          <p class="card-text"><b>Schnittstellen-Programmierung</b><br>
+            Implementierung der Hauptschnittstelle zur direkten Kommunikation zwischen der Datenaufbereitung und der Analyse auf der Website.
+          </p>
+          <p class="card-text"><b>Kontakt: </b><br>fmedved@student.tgm.ac.at</p>
+        </div>
+      </div>
+
+      <!-- Amin -->
+      <div class="d-none d-lg-block d-xl-block">
+        <div class="row team">
+          <div class="col-2">
+            <img src="pictures/amin.png" class="rounded img-fluid shadow" alt="Chris">
+          </div>
+          <div class="col-9">
+            <h3 class="card-title h3-pc">Amin Javed</h3>
+            <p class="card-text"><b>Visuelle Darstellung von Daten</b><br>
+              Grafische Implementierung von Statistiken und Prognosen auf einer Website.
+            </p>
+            <p class="card-text"><b>Kontakt: </b><br>ajaved@student.tgm.ac.at</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-block d-lg-none d-xl-none">
+        <div class="team row">
+          <img src="pictures/amin.png" class="rounded img-fluid shadow mobile-pic mx-auto d-block" alt="Chris">
+        </div>
+        <div class="team row">
+          <h3 class="card-title h3-mobile">Amin Javed</h3>
+          <p class="card-text"><b>Visuelle Darstellung von Daten</b><br>
+            Grafische Implementierung von Statistiken und Prognosen auf einer Website.
+          </p>
+          <p class="card-text"><b>Kontakt: </b><br>ajaved@student.tgm.ac.at</p>
+        </div>
+      </div>
+      <div id="kontakt"></div>
+    </div>
+
+    <!-- Kontakt -->
+    <div class="container-fluid background-white shadow p-3 mb-5 d-none d-lg-block d-xl-block">
+      <h2 class="title h2-pc d-none d-lg-block d-xl-block">Vertretung nach außen</h2>
+      <h2 class="title h2-mobile d-block d-lg-none d-xl-none">Vertretung nach außen</h2>
+      <div class="row">
+        <div class="col-6">
+          <h4 class="card-title h4-pc d-none d-lg-block d-xl-block">Auftraggeber</h4>
+          <h4 class="card-title h4-mobile d-block d-lg-none d-xl-none">Auftraggeber</h4>
+          <p class="card-text">Leo Winkler<br>leo.winkler@outlook.com</p>
+          <p class="card-text">Semih Cakir<br>secakir20@gmail.com</p>
+        </div>
+        <div class="col-6">
+          <h4 class="card-title h4-pc d-none d-lg-block d-xl-block">Projektleitung</h4>
+          <h4 class="card-title h4-mobile d-block d-lg-none d-xl-none">Projektleitung</h4>
+          <p class="card-text">Christian Broz<br>cbroz@student.tgm.ac.at</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid background-white shadow p-3 mb-5 d-block d-lg-none d-xl-none">
+      <h2 class="title h2-pc d-none d-lg-block d-xl-block">Vertretung nach außen</h2>
+      <h2 class="title h2-mobile d-block d-lg-none d-xl-none">Vertretung nach außen</h2>
+      <div class="row">
+        <h4 class="card-title h4-pc d-none d-lg-block d-xl-block">Auftraggeber</h4>
+        <h4 class="card-title h4-mobile d-block d-lg-none d-xl-none">Auftraggeber</h4>
+        <p class="card-text">Leo Winkler<br>leo.winkler@outlook.com</p>
+        <p class="card-text">Semih Cakir<br>secakir20@gmail.com</p>
+        <h4 class="card-title h4-pc d-none d-lg-block d-xl-block">Projektleitung</h4>
+        <h4 class="card-title h4-mobile d-block d-lg-none d-xl-none">Projektleitung</h4>
+        <p class="card-text">Christian Broz<br>cbroz@student.tgm.ac.at</p>
+      </div>
+    </div>
+
+    <div id="fortschritt"></div>
+
+
+    <!-- Projektfortschritt -->
+    <div class="container-fluid background-white shadow p-3 mb-5">
+      <h2 class="title h2-pc d-none d-lg-block d-xl-block">Projektfortschritt</h2>
+      <h2 class="title h2-mobile d-block d-lg-none d-xl-none">Projektfortschritt</h2>
+      <div class="card">
+        <div class="card-body box-color">
+          <div class="progress" style="height: 30px;">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuemin="0" aria-valuemax="100">
+                  Planung abgeschlossen</div>
+              <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuemin="0" aria-valuemax="100">
+                  Datenbank fertiggestellt</div>
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuemin="0" aria-valuemax="100">
+                  Kommunikation über Schnittstelle</div>
+              <div class="progress-bar bg-dark" role="progressbar" style="width:20%" aria-valuemin="0" aria-valuemax="100">
+                  Entwicklung abgeschlossen</div>
+              <div class="progress-bar bg-dark" role="progressbar" style="width: 20%" aria-valuemin="0" aria-valuemax="100">
+                  Gesamt-Testing abgeschlossen</div>
+          </div>
+          <p></p>
+          <table class="table">
+              <tbody>
+                  <tr>
+                      <th scope="row">1</th>
+                      <td>22.10.2020 - Planung ist abgeschlossen</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">2</th>
+                      <td>26.11.2020 - Datenbank für aufbereitete Daten und Kontoinformationen ist fertiggestellt<br>
+                  </tr>
+                  <tr>
+                      <th scope="row">3</th>
+                      <td><s>06.01.2021</s> 11.02.2021 - Daten werden über Schnittstelle von der Webseite abgerufen und dargestellt<br>
+                      Anmerkung: Projektarbeit hat Verzug</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">4</th>
+                      <td><s>28.01.2021</s> 25.02.2021 - Entwicklung ist abgeschlossen und alle gegebenen Funktionen sind implementiert</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">5</th>
+                      <td><s>25.02.2021</s> 11.03.2021- Gesamt-Testing ist abgeschlossen</td>
+                  </tr>
+              </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <nav class="navbar navbar-light footer">
+    <p class="text-left">TGM - Die Schule der Technik</p>
+    <p class="text-right">ReWrite - Software zur Erstellung von Prognosen und Statistiken</p>
+  </nav>
+</body>
+</html>
